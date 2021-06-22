@@ -4,9 +4,174 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=devicewidth, intiial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css" integrity="sha256-46qynGAkLSFpVbE8og43gvNjfr0j+BmwXdxFgVK/Kcv=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
+        <!--Navbar-->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <!--Logo Here-->
+                <a class="navbar-item">
+                    <img src="" width="" height="">
+                </a>
+          
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        About Me
+                    </a>
+          
+                    <a class="navbar-item">
+                        Portfolio
+                    </a>
 
+                    <a class="navbar-item">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+            <div class="hero-body">
+            <div class="container">Hello! I am
+                <h1 class="title is-1">
+                Josh Gonzalez
+                </h1>
+                <h2 class="subtitle is-3">
+                Full Stack Web Developer
+                </h2>
+            </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <!-- Title -->
+            <div class="section-heading">
+                <div class="container">
+                    <div class="section-heading">
+                        <h3 class="title is-2">About Me</h3>
+                        <h4 class="subtitle is-5">Cool Statement Here</h4>
+                        <div class="container">
+                            <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
+                            field of
+                            <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
+                            Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+                            believes
+                            in gaining a competitive edge and giving back to the community.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="section" id="portfolio">
+            <div class="container">
+            <div class="section-heading">
+                <h3 class="title is-2">Portfolio</h3>
+                <h4 class="subtitle is-5">My latest works</h4>
+                <div class="container">
+                    <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
+                    field of
+                    <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
+                    Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+                    believes
+                    in gaining a competitive edge and giving back to the community.</p>
+                </div>
+            </div>
+            <br>
+
+            <div class="container portfolio-container">
+                <div class="columns">
+                <div class="column is-4">
+                    <!--Movie Drink Matchmaker-->
+                    <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        <span>Movie Drink Matchmaker</span>
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <figure class="image">
+                        <img src="./assets/images/move-drink-screenshot.png" alt="Movie drink matchmaker screenshot">
+                        </figure>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://evperkinsjr.github.io/movie-drink-matchmaker/" class="card-footer-item">Deployed Application</a>
+                        <a href="https://github.com/evperkinsjr/movie-drink-matchmaker" class="card-footer-item">Repository</a>
+                    </footer>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <!-- Password Generator-->
+                    <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        <span>Password Generator</span>
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <figure class="image">
+                        <img src="../images/band.png" alt="Password generator screenshot">
+                        </figure>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="templates/band.html" class="card-footer-item">Deployed Application</a>
+                        <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/band.html" class="card-footer-item">Repository</a>
+                    </footer>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <!--Work Day Scheduler-->
+                    <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                        <span>Work Day Scheduler</span>
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <figure class="image">
+                        <img src="../images/blog.png" alt="Workday scheduler screenshot">
+                        </figure>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="templates/blog.html" class="card-footer-item">Deployed Application</a>
+                        <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/blog.html" class="card-footer-item">Repository</a>
+                    </footer>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section> 
+
+        <section class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="columns">
+                        <div class="column">
+                            <h1 class="title is-1">Contact Me</h1>
+                            <address>
+                                <a href="tel:+17046494017">704.649.4017</a>
+                                <a href="mailto:jalgonz96@gmail.com">jalgonz96@gmail.com</a>
+                                <a href="https://github.com/jalgonz"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/joshua-gonzalez-277380215/"></a>
+                                <a href="https://www.linkedin.com/in/joshua-gonzalez-277380215/https://www.linkedin.com/in/joshua-gonzalez-277380215/"><i class="fab fa-linkedin-in"></i></a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
