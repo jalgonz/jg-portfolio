@@ -1,0 +1,52 @@
+:root {
+    --lightshade: #F3F5EF;
+    --lightaccent: #A28066;
+    --main: #9D968B;
+    --darkaccent: #A0594E;
+    --darkshade: #3C504D; 
+}
+
+a {
+    color: rgb(40, 49, 48);
+}
+
+a:hover {
+    color: var(--darkaccent);
+}
+.navbar {
+    background-color: var(--lightshade);
+    
+}
+
+.hero.is-link {
+    background-image: url(../images/background1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--darkshade);
+}
+.portfolio {
+    background-color: var(--darkshade);
+    color: white;
+} 
+
+.card-header-title {
+    background-color: var(--lightshade);
+}
+.card {
+    background-color: var(--main);
+}
+
+.card-footer-item:not(:last-child) {
+    border-right: 1px solid var(--darkaccent);
+}
+.card-footer {
+    background-color: var(--lightshade);
+}
+.aboutme, .contactme {
+    background-color: var(--lightshade);
+}
+.white {
+    color: white;
+}
